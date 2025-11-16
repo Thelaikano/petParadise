@@ -1,0 +1,88 @@
+.nav-mini {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: var(--fondocolor-nav);
+  height: 100vh;
+  width: 3rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  color: white;
+}
+
+.iconos-navmini {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  /*border: 1px solid white;*/
+  height: 17rem;
+  width: 3rem;
+}
+.iconos-navmini > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid white;*/
+  width: 3rem;
+  height: 3rem;
+}
+.iconos-navmini > div > svg {
+  width: 30px;
+  height: 30px;
+}
+.icono-logo > img {
+  width: 50px;
+  height: 50px;
+}
+.iconos-navmini > p {
+  font-size: 0.5rem;
+}
+/*.icono-inicio > p {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: var(--sombrafuente);
+}*/
+.enlaces-navmini {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /*border: 1px solid white;*/
+  height: 17rem;
+  width: 10rem;
+}
+.enlaces-navmini > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  /*border: 1px solid white;*/
+  width: 10rem;
+  height: 3rem;
+  transition-duration: 0s;
+  text-align: center;
+}
+/*.enlaces-navmini > li:first-of-type {
+  background-image: url("nombre.png");
+  background-size: cover;
+  background-position: center;
+}*/
+.enlaces-navmini > li:hover {
+  text-shadow: 4px 0 4px white;
+  cursor: pointer;
+}
+.enlaces-navmini > li > a {
+  text-decoration: none;
+  color: white;
+}
+.enlaces-navmini > li > a:active {
+  color: black;
+}
+@media (min-width: 390px) {
+  .nav-mini {
+    width: 3rem;
+  }
+}

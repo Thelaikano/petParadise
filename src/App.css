@@ -1,0 +1,21 @@
+:root {
+  --colorfondo: white;
+  --colorfuente: black;
+  --fuente: "Revalia", sans-serif;
+  --sombrafuente: 0 0 3px #fff, 0 0 5px #4510e2, 0 0 15px #4510e2;
+  --fondocolor-nav: rgba(11, 11, 245, 0.7);
+  --fuente-frase: "Mynerve", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-color: var(--colorfondo);
+  color: var(--colorfuente);
+  font-family: var(--fuente);
+}
+.app {
+  position: relative;
+}

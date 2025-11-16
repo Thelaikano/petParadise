@@ -1,0 +1,304 @@
+.contacto {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 4px 0px 4px black;
+  /*background-color: black;*/
+  background: #f7f702;
+  background: radial-gradient(
+    circle,
+    rgba(247, 247, 2, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.contacto > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.info-contacto {
+  /*border: 1px solid black;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.map-sucursal {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 7rem;
+  height: 3rem;
+  margin: 1rem;
+  /*border: 1px solid blue;*/
+}
+.map-hotel {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 7rem;
+  height: 3rem;
+  margin: 1rem;
+  /*border: 1px solid blue;*/
+}
+.direccion-sucursal {
+  width: 100%;
+}
+.direccion-sucursal > h3 {
+  font-size: 1.2rem;
+}
+.direccion-sucursal > p {
+  font-size: 0.7rem;
+  padding: 0 1rem;
+}
+.horario-contacto > p {
+  font-size: 0.7rem;
+  padding: 0 1rem;
+}
+.direccion-hotel {
+  width: 100%;
+}
+.direccion-hotel > h3 {
+  font-size: 1.2rem;
+}
+.direccion-hotel > p {
+  font-size: 0.7rem;
+  padding: 0 1rem;
+}
+.iconos-contacto {
+  /*border: 1px solid green;*/
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icono-facebook {
+  background-color: blue;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+}
+.icono-facebook > svg {
+  width: 3rem;
+  height: 3rem;
+}
+.icono-instagram {
+  background: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+}
+.icono-instagram > svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icono-watsapp > svg {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.img-contacto {
+  /*border: 1px solid red;*/
+
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 15rem;
+  height: 30rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+@media (min-width: 360px) {
+  .info-contacto {
+    /*border: 2px solid white;*/
+    margin-top: 0.5rem;
+  }
+  .map-sucursal {
+    width: 8rem;
+    height: 4rem;
+  }
+  .map-hotel {
+    width: 8rem;
+    height: 4rem;
+  }
+
+  .direccion-sucursal > h3 {
+    font-size: 1.3rem;
+  }
+  .direccion-sucursal > p {
+    font-size: 0.8rem;
+  }
+  .horario-contacto > h3 {
+    font-size: 1.3rem;
+  }
+  .horario-contacto > p {
+    font-size: 0.8rem;
+  }
+
+  .direccion-hotel > h3 {
+    font-size: 1.3rem;
+  }
+  .direccion-hotel > p {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 390px) {
+  .contacto > h2 {
+    font-size: 2.3rem;
+    margin-bottom: 1.2rem;
+  }
+  .info-contacto {
+    /*border: 2px solid white;*/
+    margin-top: 0.5rem;
+  }
+  .map-sucursal {
+    width: 8rem;
+    height: 4rem;
+  }
+  .map-hotel {
+    width: 8rem;
+    height: 4rem;
+  }
+
+  .direccion-sucursal > h3 {
+    font-size: 1.5rem;
+  }
+  .direccion-sucursal > p {
+    font-size: 1rem;
+  }
+  .horario-contacto > h3 {
+    font-size: 1.5rem;
+  }
+  .horario-contacto > p {
+    font-size: 1rem;
+  }
+
+  .direccion-hotel > h3 {
+    font-size: 1.5rem;
+  }
+  .direccion-hotel > p {
+    font-size: 1rem;
+  }
+  .iconos-contacto {
+    /*border: 1px solid green;*/
+    width: 15rem;
+  }
+  .icono-facebook {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .icono-facebook > svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .icono-instagram {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .icono-instagram > svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .icono-watsapp > svg {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+
+  .img-contacto {
+    width: 18rem;
+    height: 33rem;
+  }
+}
+@media (orientation: landscape) {
+  .contacto {
+    position: relative;
+  }
+  .contacto > h2 {
+    font-size: 180%;
+    margin-bottom: 0.5rem;
+  }
+  .info-contacto {
+    /*border: 2px solid white;*/
+    margin-top: 0rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .map-sucursal {
+    display: none;
+  }
+  .map-hotel {
+    display: none;
+  }
+  .direccion-sucursal {
+    width: 50%;
+  }
+  .direccion-sucursal > h3 {
+    font-size: 120%;
+  }
+  .direccion-sucursal > p {
+    font-size: 80%;
+  }
+  .direccion-sucursal > p:nth-of-type(2) {
+    font-size: 70%;
+  }
+  .horario-contacto > h3 {
+    font-size: 120%;
+  }
+  .horario-contacto > p {
+    font-size: 90%;
+  }
+  .direccion-hotel {
+    width: 50%;
+  }
+  .direccion-hotel > h3 {
+    font-size: 120%;
+  }
+  .direccion-hotel > p {
+    font-size: 90%;
+  }
+  .direccion-hotel > p:nth-of-type(2) {
+    font-size: 70%;
+  }
+  .iconos-contacto {
+    /*border: 1px solid green;*/
+    margin-top: 1rem;
+    width: 15rem;
+  }
+  .icono-facebook {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .icono-facebook > svg {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .icono-instagram {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .icono-instagram > svg {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .icono-watsapp > svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}

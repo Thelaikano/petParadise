@@ -1,0 +1,176 @@
+.info-sucursal {
+  text-align: left;
+}
+.info-sucursal > h3 {
+  font-size: 1.1rem;
+}
+.info-sucursal > h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.info-sucursal > p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 1rem;
+  text-align: justify;
+}
+.info-sucursal > p > b {
+  font-size: 1.5rem;
+}
+.info-sucursal > ul {
+  margin-left: 3rem;
+}
+.info-sucursal > ul > li {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+}
+.galeria-sucursal {
+  width: 100%;
+  /*border: 1px solid blue;*/
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.galeria-sucursal > img {
+  width: 5rem;
+  height: 12rem;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 8px 0px 15px black;
+}
+.galeria-sucursal > img:hover {
+  width: 20rem;
+
+  margin: 0rem 1rem;
+}
+
+.boton-cita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 11rem;
+  height: 3rem;
+  margin: 1rem;
+  margin-left: 4rem;
+  border-radius: 10px;
+  box-shadow: 5px 0 10px black;
+}
+.boton-cita > p {
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+}
+.boton-cita > div {
+  padding: 0 0.5rem;
+
+  border-left: 2px solid white;
+}
+@media (min-width: 360px) {
+  .galeria-sucursal > img {
+    width: 5.3rem;
+  }
+  .galeria-hotel > img {
+    width: 5.3rem;
+  }
+  .boton-cita {
+    margin-left: 6rem;
+  }
+}
+@media (min-width: 375px) {
+  .info-sucursal > p {
+    font-size: 0.9rem;
+  }
+
+  .info-sucursal > ul > li {
+    font-size: 0.9rem;
+  }
+  .info-hotel > p {
+    font-size: 0.9rem;
+  }
+
+  .info-hotel > ul > li {
+    font-size: 0.9rem;
+  }
+  .galeria-sucursal > img {
+    width: 5.6rem;
+  }
+  .galeria-hotel > img {
+    width: 5.6rem;
+  }
+}
+@media (min-width: 390px) {
+  .instalaciones > h2 {
+    font-size: 1.8rem;
+  }
+  .info-sucursal > h3 {
+    font-size: 1.2rem;
+  }
+  .info-sucursal > h4 {
+    font-size: 1.2rem;
+  }
+  .info-sucursal > p {
+    font-size: 1rem;
+  }
+  .info-sucursal > p > b {
+    font-size: 2rem;
+  }
+
+  .info-sucursal > ul > li {
+    font-size: 1rem;
+  }
+
+  .galeria-sucursal > img {
+    width: 7rem;
+  }
+  .info-hotel > h4 {
+    font-size: 1.2rem;
+  }
+  .info-hotel > p {
+    font-size: 1rem;
+  }
+  .info-hotel > p > b {
+    font-size: 2rem;
+  }
+
+  .info-hotel > ul > li {
+    font-size: 1rem;
+  }
+
+  .galeria-hotel > img {
+    width: 7rem;
+  }
+  .boton-cita {
+    margin-left: 7rem;
+  }
+}
+@media (min-width: 436px) {
+  .boton-cita {
+    margin-left: 10rem;
+  }
+  .boton-cita > p {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 480px) {
+  .galeria-sucursal > img {
+    width: 4rem;
+  }
+  .galeria-hotel > img {
+    width: 4rem;
+  }
+}
+@media (orientation: landscape) {
+  .galeria-sucursal > img {
+    width: 5.5rem;
+  }
+  .galeria-hotel > img {
+    width: 5.5rem;
+  }
+  .boton-cita {
+    margin-left: 60%;
+  }
+}

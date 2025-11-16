@@ -1,0 +1,101 @@
+.conocenos {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-shadow: 4px 0px 4px white;
+  overflow: hidden;
+}
+.info-conocenos {
+  position: relative;
+  /*border: 1px solid green;*/
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 0 3rem;
+  font-size: 0.8rem;
+}
+.info-conocenos > h2 {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.info-conocenos > h3 {
+  margin-left: 0.5rem;
+}
+.info-conocenos > p > b {
+  font-size: 1.3rem;
+}
+
+.info-conocenos > p {
+  margin: 0.5rem;
+  font-weight: 400;
+}
+
+.img-conocenos {
+  /*border: 1px solid red;*/
+  position: absolute;
+  z-index: 0;
+  bottom: 0rem;
+  right: -3rem;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20rem;
+  height: 30rem;
+}
+@media (min-width: 436px) {
+  .info-conocenos > h2 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+  }
+  .info-conocenos > h3 {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .info-conocenos > p > b {
+    font-size: 2rem;
+  }
+
+  .info-conocenos > p {
+    margin: 0.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+@media (orientation: landscape) {
+  .info-conocenos {
+    width: 80%;
+  }
+  .info-conocenos > h2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 200%;
+  }
+  .info-conocenos > h3 {
+    margin-left: 0.5rem;
+    font-size: 150%;
+  }
+  .info-conocenos > p > b {
+    font-size: 200%;
+  }
+
+  .info-conocenos > p {
+    margin: 0.5rem;
+    font-weight: 400;
+    font-size: 90%;
+  }
+  .img-conocenos {
+    /*border: 1px solid red;*/
+
+    bottom: -2rem;
+    right: -3rem;
+
+    background-position: bottom;
+    width: 20rem;
+    height: 30rem;
+  }
+}

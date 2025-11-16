@@ -1,0 +1,68 @@
+.info-hotel {
+  text-align: left;
+}
+.info-hotel > h3 {
+  font-size: 1.1rem;
+}
+.info-hotel > h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.info-hotel > p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 1rem;
+  text-align: justify;
+}
+.info-hotel > p > b {
+  font-size: 1.5rem;
+}
+.info-hotel > ul {
+  margin-left: 3rem;
+  padding: 1rem 0;
+}
+.info-hotel > ul > li {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+}
+.galeria-hotel {
+  width: 100%;
+  /*border: 1px solid blue;*/
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.galeria-hotel > img {
+  width: 5rem;
+  height: 12rem;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 8px 0px 15px black;
+}
+.galeria-hotel > img:hover {
+  width: 20rem;
+
+  margin: 0rem 1rem;
+}
+
+.boton-cita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 15rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.boton-cita > p {
+  padding: 0 0.5rem;
+}
+.boton-cita > div {
+  padding: 0 0.5rem;
+
+  border-left: 2px solid white;
+}
