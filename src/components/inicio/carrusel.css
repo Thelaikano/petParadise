@@ -16,8 +16,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  transform: translateX(-000vw);
-  animation: carrusel 18s steps(1) infinite;
+  transform: translateX(-100vw);
+  /*animation: carrusel 18s steps(1) infinite;*/
 }
 .contenedor-pantalla {
   width: 100vw;
@@ -97,7 +97,9 @@
   width: 12rem;
   border-radius: 10px;
   box-shadow: 5px 0 10px black;
+  cursor: pointer;
 }
+
 .boton-carrusel > p {
   padding: 0 0.5rem;
 }
@@ -218,6 +220,7 @@
   height: 5rem;
   margin-top: 1rem;
   margin-left: 0rem;
+  cursor: pointer;
 }
 
 .text-p3 > p {
@@ -462,7 +465,6 @@
   .text-p3 {
     width: 80%;
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.1);
   }
   .img-carruselp3 {
     width: 28rem;

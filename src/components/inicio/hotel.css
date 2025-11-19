@@ -13,6 +13,7 @@
   font-weight: bold;
   margin: 1rem;
   text-align: justify;
+  line-height: 1.2;
 }
 .info-hotel > p > b {
   font-size: 1.5rem;

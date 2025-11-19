@@ -1,5 +1,5 @@
 import "./hotel.css";
-export default function Hotel() {
+export default function Hotel({ handleWhatsapp }) {
   return (
     <article id="hotel" className="hotel">
       <div className="info-hotel">
@@ -70,7 +70,7 @@ export default function Hotel() {
           <b>R</b>eserva su estadía hoy y dale a tu fiel compañero unas
           vacaciones inolvidables.
         </p>
-        <div className="boton-cita">
+        <div onClick={handleWhatsapp} className="boton-cita">
           <p>Realiza una reservacion</p>
           <div className="icono-watsapp">
             <svg

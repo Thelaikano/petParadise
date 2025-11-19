@@ -35,6 +35,7 @@
   width: 7rem;
   height: 3rem;
   margin: 1rem;
+  cursor: pointer;
   /*border: 1px solid blue;*/
 }
 .map-hotel {
@@ -44,6 +45,7 @@
   width: 7rem;
   height: 3rem;
   margin: 1rem;
+  cursor: pointer;
   /*border: 1px solid blue;*/
 }
 .direccion-sucursal {
@@ -85,6 +87,7 @@
   align-items: center;
   width: 3rem;
   height: 3rem;
+  cursor: pointer;
 }
 .icono-facebook > svg {
   width: 3rem;
@@ -98,6 +101,7 @@
   justify-content: center;
   width: 3rem;
   height: 3rem;
+  cursor: pointer;
 }
 .icono-instagram > svg {
   width: 3rem;
@@ -107,6 +111,7 @@
 .icono-watsapp > svg {
   width: 3.2rem;
   height: 3.2rem;
+  cursor: pointer;
 }
 
 .img-contacto {

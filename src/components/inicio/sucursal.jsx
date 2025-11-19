@@ -1,5 +1,5 @@
 import "./sucursal.css";
-export default function Sucursal() {
+export default function Sucursal({ handleWhatsapp }) {
   return (
     <article className="sucursal">
       <div className="info-sucursal">
@@ -34,7 +34,7 @@ export default function Sucursal() {
           <img src="sucursal4.png" alt="sucursal4" />
           <img src="sucursal5.png" alt="sucursal5" />
         </div>
-        <div className="boton-cita">
+        <div onClick={handleWhatsapp} className="boton-cita">
           <p>Agenda una cita</p>
           <div className="icono-watsapp">
             <svg
@@ -85,7 +85,7 @@ export default function Sucursal() {
           <img src="sucursal5.png" alt="sucursal5" />
         </div>
       </div>
-      <div className="boton-cita">
+      <div onClick={handleWhatsapp} className="boton-cita">
         <p>Realiza un pedido</p>
         <div className="icono-watsapp">
           <svg

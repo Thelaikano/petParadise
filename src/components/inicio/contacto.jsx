@@ -2,7 +2,15 @@ import "./contacto.css";
 import gatoImg from "./gato.png";
 import mapaSucursal from "./mapasucursal.png";
 import mapaHotel from "./mapahotel.png";
-export default function Contacto() {
+export default function Contacto({
+  handleMapasucursal,
+  handleMapahotel,
+  handleInstagram,
+  handleFacebook,
+  handleMail,
+  handleLlamada,
+  handleWhatsapp,
+}) {
   return (
     <section id="contacto" className="contacto">
       <h2>Contacto</h2>
@@ -13,8 +21,22 @@ export default function Contacto() {
             C. Mira 213-local 15, Emiliano Zapata, 72824 San Andrés Cholula,
             Pue.
           </p>
-          <p>Correo:petParadise@correo.com</p>
-          <p>Tel:52-222-225-0554</p>
+          <p
+            style={{ color: "yellow", cursor: "pointer", margin: ".5rem" }}
+            onClick={handleMail}
+          >
+            Correo:petParadise@correo.com
+          </p>
+          <p
+            style={{
+              color: "yellow",
+              cursor: "pointer",
+              marginLeft: ".5rem",
+            }}
+            onClick={handleLlamada}
+          >
+            Tel:52-222-225-0554
+          </p>
           <div className="horario-contacto">
             <h3>Horario Sucursal</h3>
             <p>Lunes a Viernes:</p>
@@ -23,6 +45,7 @@ export default function Contacto() {
             <p>Domingo: Cerrado</p>
           </div>
           <div
+            onClick={handleMapasucursal}
             className="map-sucursal"
             style={{ backgroundImage: `url(${mapaSucursal})` }}
           ></div>
@@ -33,16 +56,27 @@ export default function Contacto() {
             Carretera federal Puebla atlixco #10001, San Francisco Acatepec,
             72845 San Andrés Cholula, Pue.
           </p>
-          <p>Correo:petParadise@correo.com</p>
-          <p>Tel:52-222-966-4816</p>
+          <p
+            style={{ color: "yellow", cursor: "pointer", margin: ".4rem" }}
+            onClick={handleMail}
+          >
+            Correo:petParadise@correo.com
+          </p>
+          <p
+            style={{ color: "yellow", cursor: "pointer", marginLeft: ".5rem" }}
+            onClick={handleLlamada}
+          >
+            Tel:52-222-966-4816
+          </p>
           <div
+            onClick={handleMapahotel}
             className="map-hotel"
             style={{ backgroundImage: `url(${mapaHotel})` }}
           ></div>
         </div>
 
         <div className="iconos-contacto">
-          <div className="icono-facebook">
+          <div onClick={handleFacebook} className="icono-facebook">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -55,7 +89,7 @@ export default function Contacto() {
               <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" />
             </svg>
           </div>
-          <div className="icono-instagram">
+          <div onClick={handleInstagram} className="icono-instagram">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -74,7 +108,7 @@ export default function Contacto() {
               <path d="M16.5 7.5v.01" />
             </svg>
           </div>
-          <div className="icono-watsapp">
+          <div onClick={handleWhatsapp} className="icono-watsapp">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

@@ -3,7 +3,11 @@ import principioImg from "./principio.png";
 import medioImg from "./medio.png";
 import finalImg from "./final.png";
 import mapaImg from "./mapasucursal.png";
-export default function Carrusel() {
+export default function Carrusel({
+  handleMapasucursal,
+  handleWhatsapp,
+  handleLlamada,
+}) {
   return (
     <section id="inicio" className="carrusel">
       <div className="carrusel-contenedor">
@@ -22,7 +26,7 @@ export default function Carrusel() {
                 <p>Sabado: 10am - 5pm</p>
                 <p>Domingo: Cerrado</p>
               </div>
-              <div className="boton-carrusel">
+              <div className="boton-carrusel" onClick={handleWhatsapp}>
                 <p>Agenda una cita</p>
                 <div className="icono-watsapp">
                   <svg
@@ -61,7 +65,7 @@ export default function Carrusel() {
 
                 <h3>Los 7 dias de la semana</h3>
               </div>
-              <div className="boton-carrusel">
+              <div className="boton-carrusel" onClick={handleWhatsapp}>
                 <p>Agenda una cita</p>
                 <div className="icono-watsapp">
                   <svg
@@ -95,14 +99,19 @@ export default function Carrusel() {
               <img src="nombre.png" alt="nombre" className="titulo-carrusel" />
               <div className="text-p3">
                 <h2>Visitanos:</h2>
-                <img src={mapaImg} alt="mapa" />
+                <img src={mapaImg} alt="mapa" onClick={handleMapasucursal} />
                 <p>
                   C. Mira 213-local 15, Emiliano Zapata, 72824 San Andrés
                   Cholula, Pue.
                 </p>
-                <p>Tel:52-222-225-0554</p>
+                <p
+                  style={{ color: "yellow", cursor: "pointer" }}
+                  onClick={handleLlamada}
+                >
+                  Tel:52-222-225-0554
+                </p>
               </div>
-              <div className="boton-carrusel">
+              <div className="boton-carrusel" onClick={handleWhatsapp}>
                 <p>Agenda una cita</p>
                 <div className="icono-watsapp">
                   <svg
