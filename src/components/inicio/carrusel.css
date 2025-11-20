@@ -17,7 +17,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   transform: translateX(-200vw);
-  /*animation: carrusel 18s steps(1) infinite;*/
+  animation: carrusel 18s steps(1) infinite;
 }
 .contenedor-pantalla {
   width: 100vw;
