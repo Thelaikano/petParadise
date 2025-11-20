@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   color: black;
-  text-shadow: 4px 0px 4px white;
+  /*text-shadow: 4px 0px 4px white;*/
   overflow: hidden;
 }
 .info-conocenos {
@@ -16,6 +16,7 @@
   height: 100%;
   padding: 0 3rem;
   font-size: 0.8rem;
+  line-height: 1.2;
 }
 .info-conocenos > h2 {
   margin-top: 2rem;
@@ -30,7 +31,7 @@
 
 .info-conocenos > p {
   margin: 0.5rem;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .img-conocenos {

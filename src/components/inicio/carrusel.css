@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  transform: translateX(-200vw);
+  transform: translateX(-000vw);
   animation: carrusel 18s steps(1) infinite;
 }
 .contenedor-pantalla {
@@ -333,6 +333,44 @@
   .img-carruselp3 {
     width: 23rem;
     height: 23rem;
+  }
+}
+@media (min-width: 430px) {
+  .titulo-carrusel {
+    width: 25rem;
+  }
+  .text-p1 > h2 {
+    font-size: 1.8rem;
+  }
+  .text-p1 > h3 {
+    font-size: 1.6rem;
+  }
+
+  .text-p1 > p {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+  }
+  .img-carruselp1 {
+    width: 30rem;
+    height: 30rem;
+  }
+  .text-p2 > h2 {
+    font-size: 2.5rem;
+  }
+  .text-p2 > h3 {
+    font-size: 2.3rem;
+  }
+
+  .text-p2 > p {
+    font-size: 1.9rem;
+  }
+  .img-carruselp2 {
+    width: 45rem;
+    height: 35rem;
+  }
+  .img-carruselp3 {
+    width: 25rem;
+    height: 25rem;
   }
 }
 @media (min-width: 436px) {

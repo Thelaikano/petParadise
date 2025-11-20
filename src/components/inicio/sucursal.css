@@ -44,7 +44,7 @@
   box-shadow: 8px 0px 15px black;
 }
 .galeria-sucursal > img:hover {
-  width: 80%;
+  width: 70%;
 
   margin: 0rem 0.3rem;
 }
@@ -164,6 +164,9 @@
   .galeria-hotel > img {
     width: 4rem;
   }
+  .galeria-sucursal > img:hover {
+    width: 85%;
+  }
 }
 @media (orientation: landscape) {
   .galeria-sucursal > img {
@@ -174,5 +177,8 @@
   }
   .boton-cita {
     margin-left: 60%;
+  }
+  .galeria-sucursal > img:hover {
+    width: 100%;
   }
 }
