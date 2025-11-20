@@ -45,9 +45,9 @@
   box-shadow: 8px 0px 15px black;
 }
 .galeria-hotel > img:hover {
-  width: 20rem;
+  width: 80%;
 
-  margin: 0rem 1rem;
+  margin: 0rem 0.5rem;
 }
 
 .boton-cita {

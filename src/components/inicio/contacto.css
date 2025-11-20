@@ -229,6 +229,18 @@
     height: 33rem;
   }
 }
+@media (min-width: 430px) {
+  .img-contacto {
+    width: 24rem;
+    height: 39rem;
+    right: -2rem;
+  }
+  .iconos-contacto {
+    /*border: 1px solid green;*/
+    width: 15rem;
+    margin-top: 2rem;
+  }
+}
 @media (orientation: landscape) {
   .contacto {
     position: relative;

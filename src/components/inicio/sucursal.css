@@ -34,7 +34,7 @@
   justify-content: center;
 }
 .galeria-sucursal > img {
-  width: 5rem;
+  width: 5.2rem;
   height: 12rem;
   object-fit: cover;
   object-position: center;
@@ -44,9 +44,9 @@
   box-shadow: 8px 0px 15px black;
 }
 .galeria-sucursal > img:hover {
-  width: 20rem;
+  width: 80%;
 
-  margin: 0rem 1rem;
+  margin: 0rem 0.3rem;
 }
 
 .boton-cita {

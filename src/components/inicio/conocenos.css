@@ -46,7 +46,7 @@
   width: 20rem;
   height: 30rem;
 }
-@media (min-width: 436px) {
+@media (min-width: 430px) {
   .info-conocenos > h2 {
     margin-top: 2rem;
     margin-left: 1rem;
