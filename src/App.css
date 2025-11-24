@@ -1,7 +1,8 @@
 :root {
   --colorfondo: white;
   --colorfuente: black;
-  --fuente: "Revalia", sans-serif;
+  --fuente: "Sora", sans-serif;
+  /*--fuente: "Revalia", sans-serif;*/
   --sombrafuente: 0 0 3px #fff, 0 0 5px #4510e2, 0 0 15px #4510e2;
   --fondocolor-nav: rgba(11, 11, 245, 0.7);
   --fuente-frase: "Mynerve", cursive;

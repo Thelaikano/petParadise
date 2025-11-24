@@ -6,9 +6,9 @@ export default function Servicios() {
       <h2>Servicios</h2>
       <article className="info-servicios">
         <div className="tarjeta-servicios">
-          <p>Atencion Medica General</p>
+          <p>Atención Medica General</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Consultas veterinarias de rutina y de emergencia</li>
             <li>Vacunacion y planes de prevencion</li>
             <li>Desparasitacion interna y externa</li>
@@ -19,7 +19,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Cirujia</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>
               Cirugías generales (esterilización, castración, tumores, etc.)
             </li>
@@ -33,7 +33,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Hospitalización</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Sala de hospitalización con monitoreo 24/7</li>
             <li>Terapias de recuperación y cuidados intensivos</li>
           </ul>
@@ -41,7 +41,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Diagnóstico y Laboratorio</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Rayos X y ultrasonido</li>
             <li>Análisis clínicos (sangre, orina, heces)</li>
             <li>Pruebas rápidas para enfermedades infecciosas</li>
@@ -51,7 +51,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Tienda especializada</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Croquetas y alimentos húmedos de marcas confiables.</li>
             <li>Suplementos y vitaminas</li>
             <li>Accesorios collares, correas, arneses, camas,etc.</li>
@@ -64,7 +64,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Pensión / Hotel Canino</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Alojamiento seguro y cómodo</li>
             <li>Áreas de recreo supervisadas</li>
             <li>
@@ -77,7 +77,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Estética y Peluquería</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Baño y secado con productos dermatológicos</li>
             <li>Corte de pelo según raza o estilo</li>
             <li>Corte y limpieza de uñas</li>
@@ -88,7 +88,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Crianza Responsable</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Asesoría en reproducción canina</li>
             <li>Control prenatal y partos asistidos</li>
             <li>Cuidado neonatal y destete</li>
@@ -98,7 +98,7 @@ export default function Servicios() {
         <div className="tarjeta-servicios">
           <p>Servicios Adicionales</p>
           <ul>
-            <h4>Informacion</h4>
+            <h4>Información</h4>
             <li>Microchip y registro de identificación</li>
             <li>Farmacia veterinaria con productos de calidad</li>
             <li>Asesoría en adopción y bienestar animal</li>

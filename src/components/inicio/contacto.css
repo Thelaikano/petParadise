@@ -8,7 +8,9 @@
   align-items: center;
   flex-direction: column;
   color: white;
-  text-shadow: 4px 0px 4px black;
+  text-shadow: 2px 1px 2px black;
+
+  font-weight: bold;
   /*background-color: black;*/
   background: #f7f702;
   background: radial-gradient(
@@ -56,7 +58,7 @@
   margin-bottom: 0.3rem;
 }
 .direccion-sucursal > p {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   padding: 0 1rem;
 }
 .horario-contacto > h3 {
@@ -235,6 +237,67 @@
   }
 }
 @media (min-width: 430px) {
+  .contacto > h2 {
+    font-size: 2.8rem;
+    margin: 0.5rem 0;
+  }
+  .info-contacto {
+    /*border: 2px solid white;*/
+    margin-top: 0rem;
+  }
+  .map-sucursal {
+    width: 9rem;
+    height: 5rem;
+  }
+  .map-hotel {
+    width: 9rem;
+    height: 5rem;
+  }
+
+  .direccion-sucursal > h3 {
+    font-size: 1.8rem;
+  }
+  .direccion-sucursal > p {
+    font-size: 1.2rem;
+  }
+  .horario-contacto > h3 {
+    font-size: 1.8rem;
+  }
+  .horario-contacto > p {
+    font-size: 1.2rem;
+  }
+
+  .direccion-hotel > h3 {
+    font-size: 1.8rem;
+  }
+  .direccion-hotel > p {
+    font-size: 1.2rem;
+  }
+  .iconos-contacto {
+    /*border: 1px solid green;*/
+    width: 15rem;
+  }
+  .icono-facebook {
+    width: 4rem;
+    height: 4rem;
+  }
+  .icono-facebook > svg {
+    width: 4rem;
+    height: 4rem;
+  }
+  .icono-instagram {
+    width: 4rem;
+    height: 4rem;
+  }
+  .icono-instagram > svg {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .icono-watsapp > svg {
+    width: 4.3rem;
+    height: 4.3rem;
+  }
   .img-contacto {
     width: 24rem;
     height: 39rem;
@@ -243,7 +306,7 @@
   .iconos-contacto {
     /*border: 1px solid green;*/
     width: 15rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
 }
 @media (orientation: landscape) {
@@ -252,7 +315,7 @@
   }
   .contacto > h2 {
     font-size: 180%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
   }
   .info-contacto {
     /*border: 2px solid white;*/
@@ -299,7 +362,7 @@
   }
   .iconos-contacto {
     /*border: 1px solid green;*/
-    margin-top: 1rem;
+    margin-top: 0rem;
     width: 15rem;
   }
   .icono-facebook {

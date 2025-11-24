@@ -3,17 +3,19 @@
 }
 .info-sucursal > h3 {
   font-size: 1.1rem;
+  font-weight: 800;
 }
 .info-sucursal > h4 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 .info-sucursal > p {
-  font-size: 0.8rem;
-  line-height: 1.2;
-  font-weight: bold;
+  font-size: 0.9rem;
+  /*line-height: 1.2;*/
+  font-weight: 800;
   margin: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 .info-sucursal > p > b {
   font-size: 1.5rem;
@@ -22,9 +24,9 @@
   margin-left: 3rem;
 }
 .info-sucursal > ul > li {
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding: 0.3rem 0;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 0rem 0;
 }
 .galeria-sucursal {
   width: 100%;
@@ -64,7 +66,10 @@
 }
 .boton-cita > p {
   padding: 0 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 .boton-cita > div {
   padding: 0 0.5rem;
@@ -83,19 +88,31 @@
   }
 }
 @media (min-width: 375px) {
+  .info-sucursal > h3 {
+    font-size: 1.3rem;
+  }
+  .info-sucursal > h4 {
+    font-size: 1.2rem;
+  }
   .info-sucursal > p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .info-sucursal > ul > li {
-    font-size: 0.9rem;
+    font-size: 1rem;
+  }
+  .info-hotel > h3 {
+    font-size: 1.3rem;
+  }
+  .info-hotel > h4 {
+    font-size: 1.2rem;
   }
   .info-hotel > p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .info-hotel > ul > li {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .galeria-sucursal > img {
     width: 5.6rem;
@@ -106,40 +123,43 @@
 }
 @media (min-width: 390px) {
   .instalaciones > h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .info-sucursal > h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .info-sucursal > h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .info-sucursal > p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .info-sucursal > p > b {
     font-size: 2rem;
   }
 
   .info-sucursal > ul > li {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .galeria-sucursal > img {
     width: 7rem;
   }
+  .info-hotel > h3 {
+    font-size: 1.5rem;
+  }
   .info-hotel > h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .info-hotel > p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .info-hotel > p > b {
     font-size: 2rem;
   }
 
   .info-hotel > ul > li {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .galeria-hotel > img {
@@ -149,12 +169,52 @@
     margin-left: 7rem;
   }
 }
-@media (min-width: 436px) {
+@media (min-width: 430px) {
+  .instalaciones > h2 {
+    font-size: 2.5rem;
+  }
+  .info-sucursal > h3 {
+    font-size: 1.8rem;
+  }
+  .info-sucursal > h4 {
+    font-size: 1.6rem;
+  }
+  .info-sucursal > p {
+    font-size: 1.3rem;
+  }
+  .info-sucursal > p > b {
+    font-size: 2.2rem;
+  }
+
+  .info-sucursal > ul > li {
+    font-size: 1.3rem;
+  }
+
+  .galeria-sucursal > img {
+    width: 7.2rem;
+  }
+  .info-hotel > h3 {
+    font-size: 1.8rem;
+  }
+  .info-hotel > h4 {
+    font-size: 1.6rem;
+  }
+  .info-hotel > p {
+    font-size: 1.3rem;
+  }
+  .info-hotel > p > b {
+    font-size: 2.2rem;
+  }
+
+  .info-hotel > ul > li {
+    font-size: 1.3rem;
+  }
+
+  .galeria-hotel > img {
+    width: 7.2rem;
+  }
   .boton-cita {
     margin-left: 10rem;
-  }
-  .boton-cita > p {
-    font-size: 0.8rem;
   }
 }
 @media (min-width: 480px) {
@@ -177,8 +237,5 @@
   }
   .boton-cita {
     margin-left: 60%;
-  }
-  .galeria-sucursal > img:hover {
-    width: 100%;
   }
 }

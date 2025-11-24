@@ -71,7 +71,7 @@ export default function Hotel({ handleWhatsapp }) {
           vacaciones inolvidables.
         </p>
         <div onClick={handleWhatsapp} className="boton-cita">
-          <p>Realiza una reservacion</p>
+          <p>Reserva ahora</p>
           <div className="icono-watsapp">
             <svg
               xmlns="http://www.w3.org/2000/svg"

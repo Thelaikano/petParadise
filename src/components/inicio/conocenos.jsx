@@ -4,7 +4,7 @@ export default function Conocenos() {
   return (
     <section id="conocenos" className="conocenos">
       <article className="info-conocenos">
-        <h2>Quienes somos?</h2>
+        <h2>Quiénes somos?</h2>
         <h3>Pet Paradise</h3>
         <p>
           <b>C</b>on más de 20 años de experiencia cuidando la salud y el

@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  text-shadow: 4px 0px 4px black;
+  text-shadow: 3px 3px 3px black;
   color: white;
 }
 .titulo-carrusel {
@@ -60,7 +60,7 @@
   width: 100%;
   height: 100%;
   padding-left: 3rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .text-p1 {
@@ -71,19 +71,20 @@
   z-index: 1;
 }
 .text-p1 > h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.9rem;
+  font-weight: 700;
 }
 .text-p1 > h3 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin: 1rem 0 2.5rem 0;
+  font-weight: 700;
 }
 
 .text-p1 > p {
-  font-weight: bolder;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1.4rem;
   padding: 0 0.7rem;
-  margin: 0.8rem 0;
+  margin: 0.3rem 0;
 }
 
 .boton-carrusel {
@@ -101,7 +102,10 @@
 }
 
 .boton-carrusel > p {
+  font-size: 1.2rem;
   padding: 0 0.5rem;
+  padding-left: 0.8rem;
+  font-weight: 600;
 }
 .boton-carrusel > div {
   padding: 0 0.5rem;
@@ -152,11 +156,11 @@
   /*border: 1px solid black;*/
 }
 .text-p2 > h2 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 .text-p2 > h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .text-p2 > p {
@@ -211,7 +215,7 @@
 }
 
 .text-p3 > h2 {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   font-weight: bold;
   margin-top: -1rem;
 }
@@ -225,14 +229,16 @@
 
 .text-p3 > p {
   width: 100%;
-  font-weight: bold;
-  font-size: 1rem;
+  font-weight: 800;
+  font-size: 1.1rem;
   padding: 0 1rem;
+}
+.text-p3 > p:first-of-type {
   margin-top: 2rem;
 }
 .text-p3 > p:last-of-type {
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 @keyframes carrusel {
@@ -251,60 +257,102 @@
 }
 
 @media (min-width: 360px) {
-  .text-p1 > p {
-    font-size: 1.3rem;
+  .text-p1 > h2 {
+    font-size: 2rem;
+  }
+  .text-p1 > h3 {
+    font-size: 1.8rem;
+  }
 
-    margin: 0.2rem 0;
+  .text-p1 > p {
+    font-size: 1.5rem;
   }
   .text-p2 > h2 {
-    font-size: 2rem;
-    padding: 0 0.5rem;
-    margin: 2rem 0;
+    font-size: 2.6rem;
+    font-weight: 800;
   }
   .text-p2 > h3 {
-    font-size: 1.8rem;
-    padding: 0 0.5rem;
+    font-size: 2rem;
+    padding: 0 1rem;
   }
 
   .text-p2 > p {
-    font-size: 1.5rem;
-    margin: 1rem 0 2rem 0;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 2.5rem 0 2.5rem 0;
+  }
+  .img-carruselp2 {
+    width: 38rem;
+    height: 28rem;
+  }
+
+  .text-p3 > h2 {
+    font-size: 2.5rem;
+  }
+
+  .text-p3 > p {
+    font-size: 1.2rem;
+    padding: 0 1.1rem;
+  }
+  .text-p3 > p:first-of-type {
+    margin-top: 2rem;
+  }
+  .text-p3 > p:last-of-type {
+    margin-top: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 375px) {
+  .text-p1 > h3 {
+    font-size: 1.8rem;
+  }
+
   .text-p1 > p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .text-p2 > h2 {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
   .text-p2 > h3 {
-    font-size: 1.9rem;
-    padding: 0 0.5rem;
+    font-size: 2rem;
+    padding: 0 1rem;
   }
 
   .text-p2 > p {
-    font-size: 1.6rem;
-    margin: 1rem 0 2rem 0;
+    font-size: 1.8rem;
+    margin: 2.5rem 0 3rem 0;
   }
+  .img-carruselp2 {
+    width: 38rem;
+    height: 28rem;
+  }
+  .text-p3 > h2 {
+    font-size: 2.5rem;
+  }
+
   .text-p3 > p {
-    font-size: 1.2rem;
-    margin: 1rem 0 0rem 0;
+    font-size: 1.3rem;
+    padding: 0 1.1rem;
+  }
+  .text-p3 > p:first-of-type {
+    margin-top: 2.5rem;
   }
   .text-p3 > p:last-of-type {
-    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 390px) {
   .text-p1 > h2 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
   .text-p1 > h3 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    margin: 1rem 0 2.5rem 0;
   }
 
   .text-p1 > p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .img-carruselp1 {
     width: 28rem;
@@ -312,10 +360,10 @@
     right: -5rem;
     bottom: 0;
   }
-  .text-p2 > h2 {
-    font-size: 2.2rem;
+  .text-p2 > p {
+    font-size: 1.8rem;
+    margin: 2.5rem 0 2rem 0;
   }
-
   .img-carruselp2 {
     width: 40rem;
     height: 30rem;
@@ -327,8 +375,20 @@
     width: 15rem;
     height: 8rem;
   }
+  .text-p3 > h2 {
+    font-size: 2.5rem;
+  }
+
+  .text-p3 > p {
+    font-size: 1.3rem;
+    padding: 0 1.1rem;
+  }
+  .text-p3 > p:first-of-type {
+    margin-top: 2rem;
+  }
   .text-p3 > p:last-of-type {
-    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
   }
   .img-carruselp3 {
     width: 23rem;
@@ -340,29 +400,30 @@
     width: 25rem;
   }
   .text-p1 > h2 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
   .text-p1 > h3 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
 
   .text-p1 > p {
     font-size: 1.6rem;
-    margin: 1rem 0;
   }
   .img-carruselp1 {
     width: 30rem;
     height: 30rem;
   }
   .text-p2 > h2 {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
   .text-p2 > h3 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
+    padding: 0 1rem;
   }
 
   .text-p2 > p {
-    font-size: 1.9rem;
+    font-size: 2rem;
+    margin: 2.5rem 0 2.5rem 0;
   }
   .img-carruselp2 {
     width: 45rem;
@@ -377,31 +438,15 @@
   .titulo-carrusel {
     width: 25rem;
   }
-  .text-p1 > h2 {
-    font-size: 1.8rem;
-  }
-  .text-p1 > h3 {
-    font-size: 1.6rem;
-  }
 
-  .text-p1 > p {
-    font-size: 1.6rem;
-    margin: 1rem 0;
-  }
   .img-carruselp1 {
     width: 30rem;
     height: 30rem;
   }
   .text-p2 > h2 {
-    font-size: 2.5rem;
-  }
-  .text-p2 > h3 {
-    font-size: 2.3rem;
+    font-size: 3.5rem;
   }
 
-  .text-p2 > p {
-    font-size: 1.9rem;
-  }
   .img-carruselp2 {
     width: 45rem;
     height: 35rem;
@@ -413,31 +458,28 @@
 }
 @media (min-width: 480px) {
   .text-p1 > h2 {
-    font-size: 1.9rem;
+    font-size: 2.3rem;
   }
   .text-p1 > h3 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   .text-p1 > p {
-    font-size: 1.8rem;
-    margin: 1rem 0;
+    font-size: 1.7rem;
   }
   .img-carruselp1 {
     width: 32rem;
     height: 32rem;
   }
   .text-p2 > h2 {
-    font-size: 2.5rem;
-    margin: 0 1rem 1rem 1rem;
+    font-size: 3.7rem;
   }
   .text-p2 > h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .text-p2 > p {
-    font-size: 1.8rem;
-    margin: 0 1.5rem 2rem 1.5rem;
+    font-size: 2.1rem;
   }
   .img-carruselp2 {
     width: 45rem;
@@ -463,15 +505,15 @@
     text-align: left;
   }
   .text-p1 > h2 {
-    font-size: 150%;
+    font-size: 160%;
   }
   .text-p1 > h3 {
-    font-size: 130%;
+    font-size: 140%;
     margin: 1rem 0 0rem 0;
   }
 
   .text-p1 > p {
-    font-size: 100%;
+    font-size: 115%;
     padding: 0 0.7rem;
     margin: 0rem 0;
   }
@@ -483,16 +525,16 @@
     text-align: left;
   }
   .text-p2 > h2 {
-    font-size: 170%;
+    font-size: 200%;
     margin-top: -2rem;
   }
   .text-p2 > h3 {
-    font-size: 150%;
+    font-size: 180%;
     margin: 1rem 1rem 0rem 1rem;
   }
 
   .text-p2 > p {
-    font-size: 130%;
+    font-size: 150%;
     padding: 0 2rem;
     margin: 0rem 0;
   }
@@ -509,15 +551,17 @@
     height: 18rem;
   }
   .text-p3 > h2 {
-    font-size: 200%;
-    margin: -2rem 1rem 0rem 1rem;
+    font-size: 250%;
+    margin: -2rem 1rem -2rem 1rem;
   }
   .text-p3 > img {
+    display: none;
     width: 0rem;
     height: 0rem;
   }
   .text-p3 > p {
-    font-size: 110%;
+    font-size: 120%;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .info-carruselp3 {

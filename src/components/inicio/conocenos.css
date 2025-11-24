@@ -15,23 +15,25 @@
   width: 100%;
   height: 100%;
   padding: 0 3rem;
-  font-size: 0.8rem;
+
   line-height: 1.2;
 }
 .info-conocenos > h2 {
   margin-top: 2rem;
   margin-left: 1rem;
+  font-size: 1.4rem;
 }
 .info-conocenos > h3 {
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
 }
 .info-conocenos > p > b {
   font-size: 1.3rem;
 }
 
 .info-conocenos > p {
-  margin: 0.5rem;
-  font-weight: bold;
+  margin: 0.9rem;
+  font-weight: 800;
+  font-size: 0.8rem;
 }
 
 .img-conocenos {
@@ -47,26 +49,47 @@
   width: 20rem;
   height: 30rem;
 }
-@media (min-width: 430px) {
+@media (min-width: 360px) {
   .info-conocenos > h2 {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .info-conocenos > h3 {
-    margin-left: 0.5rem;
+    margin-left: 2rem;
     font-size: 1.5rem;
   }
   .info-conocenos > p > b {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .info-conocenos > p {
-    margin: 0.5rem;
-    font-weight: 400;
-    font-size: 1rem;
+    margin: 0.9rem;
+    font-weight: 800;
+    font-size: 0.9rem;
   }
 }
+@media (min-width: 390px) {
+  .info-conocenos > h2 {
+    font-size: 1.9rem;
+  }
+  .info-conocenos > h3 {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+  .info-conocenos > p > b {
+    font-size: 1.7rem;
+  }
+
+  .info-conocenos > p {
+    margin: 0.9rem;
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+  .img-conocenos {
+    width: 24rem;
+    height: 34rem;
+  }
+}
+
 @media (orientation: landscape) {
   .info-conocenos {
     width: 80%;
@@ -74,20 +97,20 @@
   .info-conocenos > h2 {
     margin-top: 1rem;
     margin-left: 1rem;
-    font-size: 200%;
+    font-size: 180%;
   }
   .info-conocenos > h3 {
     margin-left: 0.5rem;
-    font-size: 150%;
+    font-size: 120%;
   }
   .info-conocenos > p > b {
-    font-size: 200%;
+    font-size: 180%;
   }
 
   .info-conocenos > p {
     margin: 0.5rem;
-    font-weight: 400;
-    font-size: 90%;
+    font-weight: 800;
+    font-size: 77%;
   }
   .img-conocenos {
     /*border: 1px solid red;*/

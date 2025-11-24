@@ -22,12 +22,13 @@ export default function Carrusel({
               <div className="text-p1">
                 <h2>El Mejor Centro Veterinario</h2>
                 <h3>Horario Sucursal</h3>
-                <p>Lunes a Viernes: 10am - 8pm</p>
-                <p>Sabado: 10am - 5pm</p>
+                <p>Lunes a Viernes:</p>
+                <p>10am - 8pm</p>
+                <p>Sábado: 10am - 5pm</p>
                 <p>Domingo: Cerrado</p>
               </div>
               <div className="boton-carrusel" onClick={handleWhatsapp}>
-                <p>Agenda una cita</p>
+                <p>Agenda tu cita</p>
                 <div className="icono-watsapp">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -63,10 +64,10 @@ export default function Carrusel({
 
                 <p>Por que ellos no conocen de horarios</p>
 
-                <h3>Los 7 dias de la semana</h3>
+                <h3>Los siete días de la semana</h3>
               </div>
               <div className="boton-carrusel" onClick={handleWhatsapp}>
-                <p>Agenda una cita</p>
+                <p>Agenda tu cita</p>
                 <div className="icono-watsapp">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -98,12 +99,12 @@ export default function Carrusel({
             <div className="info-carruselp3">
               <img src="nombre.png" alt="nombre" className="titulo-carrusel" />
               <div className="text-p3">
-                <h2>Visitanos:</h2>
+                <h2>Visítanos:</h2>
                 <img src={mapaImg} alt="mapa" onClick={handleMapasucursal} />
-                <p>
-                  C. Mira 213-local 15, Emiliano Zapata, 72824 San Andrés
-                  Cholula, Pue.
-                </p>
+                <p>Calle Mira 213-local 15</p>
+                <p>Colonia Emiliano Zapata</p>
+                <p>San Andrés Cholula, Pueble, C.P.72824</p>
+
                 <p
                   style={{ color: "yellow", cursor: "pointer" }}
                   onClick={handleLlamada}
@@ -112,7 +113,7 @@ export default function Carrusel({
                 </p>
               </div>
               <div className="boton-carrusel" onClick={handleWhatsapp}>
-                <p>Agenda una cita</p>
+                <p>Agenda tu cita</p>
                 <div className="icono-watsapp">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

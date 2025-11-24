@@ -16,10 +16,10 @@ export default function Contacto({
       <h2>Contacto</h2>
       <article className="info-contacto">
         <div className="direccion-sucursal">
-          <h3>Direccion sucursal</h3>
+          <h3>Dirección de la Sucursal</h3>
           <p>
-            C. Mira 213-local 15, Emiliano Zapata, 72824 San Andrés Cholula,
-            Pue.
+            Calle Mira 213-local 15, Emiliano Zapata, 72824 San Andrés Cholula,
+            Puebla.
           </p>
           <p
             style={{ color: "yellow", cursor: "pointer", margin: ".5rem" }}
@@ -38,10 +38,10 @@ export default function Contacto({
             Tel:52-222-225-0554
           </p>
           <div className="horario-contacto">
-            <h3>Horario Sucursal</h3>
+            <h3>Horario de la Sucursal</h3>
             <p>Lunes a Viernes:</p>
             <p>10am - 8pm</p>
-            <p>Sabado: 10am - 5pm</p>
+            <p>Sábado: 10am - 5pm</p>
             <p>Domingo: Cerrado</p>
           </div>
           <div
@@ -51,10 +51,10 @@ export default function Contacto({
           ></div>
         </div>
         <div className="direccion-hotel">
-          <h3>Direccion Hotel</h3>
+          <h3>Dirección del Hotel</h3>
           <p>
             Carretera federal Puebla atlixco #10001, San Francisco Acatepec,
-            72845 San Andrés Cholula, Pue.
+            72845 San Andrés Cholula, Puebla.
           </p>
           <p
             style={{ color: "yellow", cursor: "pointer", margin: ".4rem" }}

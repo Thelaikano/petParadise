@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 .servicios > h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin: 3rem;
 }
 .info-servicios {
@@ -26,7 +26,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   position: relative;
   width: 8rem;
-  height: 4rem;
+  height: 4.5rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -34,14 +34,15 @@
 }
 .tarjeta-servicios > p {
   font-size: 0.7rem;
-  font-weight: bold;
+  font-weight: 800;
   text-shadow: 4px 0px 4px white;
+  margin-top: 0.5rem;
 }
 .tarjeta-servicios > ul {
   width: 7rem;
   height: 1rem;
   position: absolute;
-  top: 2rem;
+  top: 3rem;
   background-color: rgb(29, 3, 89);
   color: rgb(229, 225, 225);
   overflow: hidden;
@@ -60,7 +61,7 @@
   padding-right: 1rem;
 }
 .tarjeta-servicios > ul:hover {
-  width: 10rem;
+  width: 8rem;
   height: auto;
   z-index: 100;
 }
@@ -86,14 +87,24 @@
   .tarjeta-servicios > ul {
     top: 3rem;
   }
+  .tarjeta-servicios > p {
+    font-size: 0.8rem;
+  }
+
+  .tarjeta-servicios > ul > h4 {
+    font-size: 0.7rem;
+  }
+  .tarjeta-servicios > ul > li {
+    font-size: 0.7rem;
+  }
+  .tarjeta-servicios > ul:hover {
+    width: 9rem;
+  }
 }
 @media (min-width: 390px) {
   .servicios > h2 {
-    margin-top: 2rem;
-  }
-  .servicios > h2 {
     font-size: 2.5rem;
-    margin-top: 0rem;
+    margin-top: 4rem;
   }
   .info-servicios {
     margin-top: 1rem;
@@ -103,16 +114,17 @@
     height: 7rem;
   }
   .tarjeta-servicios > p {
-    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
   }
   .tarjeta-servicios > ul {
     top: 5rem;
   }
   .tarjeta-servicios > ul > h4 {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .tarjeta-servicios > ul > li {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .tarjeta-servicios > ul:hover {
     width: 11rem;
@@ -132,16 +144,17 @@
     height: 8rem;
   }
   .tarjeta-servicios > p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
   }
   .tarjeta-servicios > ul {
     top: 6rem;
   }
   .tarjeta-servicios > ul > h4 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .tarjeta-servicios > ul > li {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .tarjeta-servicios > ul:hover {
     width: 12rem;
@@ -149,27 +162,31 @@
 }
 @media (min-width: 480px) {
   .servicios > h2 {
-    margin-top: 0rem;
+    margin-top: 1rem;
   }
 }
 @media (orientation: landscape) {
   .info-servicios {
     grid-template-columns: repeat(3, 1fr);
-    margin-top: -2rem;
+    margin-top: -3%;
   }
   .tarjeta-servicios {
-    width: 7rem;
-    height: 4.5rem;
+    width: 98%;
+    height: 100%;
+    margin-bottom: 3rem;
   }
   .tarjeta-servicios > p {
-    font-size: 70%;
+    font-size: 75%;
+    margin-top: 0.5rem;
   }
   .tarjeta-servicios > ul {
     width: 6rem;
 
     top: 3rem;
   }
-
+  .tarjeta-servicios > ul > h4 {
+    font-size: 70%;
+  }
   .tarjeta-servicios > ul > li {
     font-size: 70%;
   }

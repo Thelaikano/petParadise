@@ -35,7 +35,7 @@ export default function Sucursal({ handleWhatsapp }) {
           <img src="sucursal5.png" alt="sucursal5" />
         </div>
         <div onClick={handleWhatsapp} className="boton-cita">
-          <p>Agenda una cita</p>
+          <p>Agenda tu cita</p>
           <div className="icono-watsapp">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export default function Sucursal({ handleWhatsapp }) {
         </div>
       </div>
       <div onClick={handleWhatsapp} className="boton-cita">
-        <p>Realiza un pedido</p>
+        <p>Haz tu pedido</p>
         <div className="icono-watsapp">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -64,6 +64,9 @@
   height: 3rem;
   transition-duration: 0s;
   text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px black;
 }
 /*.enlaces-navmini > li:first-of-type {
   background-image: url("nombre.png");
@@ -80,6 +83,26 @@
 }
 .enlaces-navmini > li > a:active {
   color: black;
+}
+.marca {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 100vw;
+
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+.marca > span {
+  font-weight: 100;
+  font-size: 0.8rem;
+  text-shadow: 1px 1px 1px black;
+}
+.marca > span > svg {
+  width: 15px;
+  margin-bottom: -0.5rem;
 }
 @media (min-width: 390px) {
   .nav-mini {
