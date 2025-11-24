@@ -60,9 +60,11 @@ export default function Carrusel({
             <div className="info-carruselp2">
               <img src="nombre.png" alt="nombre" className="titulo-carrusel" />
               <div className="text-p2">
-                <h2>Servicio las 24 Hrs</h2>
+                <h2>Servicio las</h2>
+                <h2>24 Hrs</h2>
 
-                <p>Por que ellos no conocen de horarios</p>
+                <p>Por que ellos no</p>
+                <p> conocen de horarios</p>
 
                 <h3>Los siete días de la semana</h3>
               </div>

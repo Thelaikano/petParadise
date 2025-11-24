@@ -166,9 +166,13 @@
 .text-p2 > p {
   font-weight: bold;
   font-size: 1.4rem;
-  margin: 1rem 0 2.5rem 0;
 }
-
+.text-p2 > p:first-of-type {
+  margin-top: 1rem;
+}
+.text-p2 > p:last-of-type {
+  margin-bottom: 2.5rem;
+}
 .carrusel-p3 {
   overflow: hidden;
   display: flex;
@@ -279,7 +283,12 @@
   .text-p2 > p {
     font-weight: bold;
     font-size: 1.6rem;
-    margin: 2.5rem 0 2.5rem 0;
+  }
+  .text-p2 > p:first-of-type {
+    margin-top: 2.5rem;
+  }
+  .text-p2 > p:last-of-type {
+    margin-bottom: 2.5rem;
   }
   .img-carruselp2 {
     width: 38rem;
@@ -320,7 +329,12 @@
 
   .text-p2 > p {
     font-size: 1.8rem;
-    margin: 2.5rem 0 3rem 0;
+  }
+  .text-p2 > p:first-of-type {
+    margin-top: 2.5rem;
+  }
+  .text-p2 > p:last-of-type {
+    margin-bottom: 3rem;
   }
   .img-carruselp2 {
     width: 38rem;
@@ -362,7 +376,12 @@
   }
   .text-p2 > p {
     font-size: 1.8rem;
-    margin: 2.5rem 0 2rem 0;
+  }
+  .text-p2 > p:first-of-type {
+    margin-top: 2.5rem;
+  }
+  .text-p2 > p:last-of-type {
+    margin-bottom: 2rem;
   }
   .img-carruselp2 {
     width: 40rem;
@@ -423,7 +442,12 @@
 
   .text-p2 > p {
     font-size: 2rem;
-    margin: 2.5rem 0 2.5rem 0;
+  }
+  .text-p2 > p:first-of-type {
+    margin-top: 2.5rem;
+  }
+  .text-p2 > p:last-of-type {
+    margin-bottom: 2.5rem;
   }
   .img-carruselp2 {
     width: 45rem;
