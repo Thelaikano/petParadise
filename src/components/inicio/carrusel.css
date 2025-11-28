@@ -510,7 +510,8 @@
     height: 35rem;
   }
 }
-@media (orientation: landscape) {
+
+@media (max-width: 932px) and (orientation: landscape) {
   .info-carruselp1 {
     background-color: rgba(0, 0, 0, 0);
   }
@@ -550,11 +551,20 @@
   }
   .text-p2 > h2 {
     font-size: 200%;
+  }
+  .text-p2 > h2:first-of-type {
     margin-top: -2rem;
   }
+  .text-p2 > p:first-of-type {
+    margin-top: 0rem;
+  }
+  .text-p2 > p:last-of-type {
+    margin-bottom: 0rem;
+  }
   .text-p2 > h3 {
+    width: 80%;
     font-size: 180%;
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
   }
 
   .text-p2 > p {

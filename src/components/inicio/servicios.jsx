@@ -17,7 +17,7 @@ export default function Servicios() {
           </ul>
         </div>
         <div className="tarjeta-servicios">
-          <p>Cirujia</p>
+          <p>Cirugía</p>
           <ul>
             <h4>Información</h4>
             <li>
