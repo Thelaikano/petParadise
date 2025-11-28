@@ -531,6 +531,7 @@
   }
   .text-p1 > h2 {
     font-size: 160%;
+    margin-top: -1.8rem;
   }
   .text-p1 > h3 {
     font-size: 140%;
@@ -550,7 +551,7 @@
     text-align: left;
   }
   .text-p2 > h2 {
-    font-size: 200%;
+    font-size: 180%;
   }
   .text-p2 > h2:first-of-type {
     margin-top: -2rem;
@@ -562,7 +563,7 @@
     margin-bottom: 0rem;
   }
   .text-p2 > h3 {
-    width: 80%;
+    width: 70%;
     font-size: 180%;
     margin: 0rem 1rem 0rem 1rem;
   }

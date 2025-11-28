@@ -17,7 +17,7 @@ export default function Contacto({
       <article className="info-contacto">
         <div className="direccion-sucursal">
           <h3>Dirección de la Sucursal</h3>
-          <p>
+          <p onClick={handleMapasucursal} style={{ cursor: "pointer" }}>
             Calle Mira 213-local 15, Emiliano Zapata, 72824 San Andrés Cholula,
             Puebla.
           </p>
@@ -52,7 +52,7 @@ export default function Contacto({
         </div>
         <div className="direccion-hotel">
           <h3>Dirección del Hotel</h3>
-          <p>
+          <p onClick={handleMapahotel} style={{ cursor: "pointer" }}>
             Carretera federal Puebla atlixco #10001, San Francisco Acatepec,
             72845 San Andrés Cholula, Puebla.
           </p>

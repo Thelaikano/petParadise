@@ -52,6 +52,7 @@
 .tarjeta-servicios > ul > h4 {
   font-size: 0.6rem;
   padding-bottom: 1rem;
+  user-select: none;
 }
 .tarjeta-servicios > ul > li {
   font-size: 0.6rem;
@@ -166,6 +167,9 @@
   }
 }
 @media (orientation: landscape) {
+  .servicios > h2 {
+    margin-bottom: 1rem;
+  }
   .info-servicios {
     grid-template-columns: repeat(3, 1fr);
     margin-top: -3%;
