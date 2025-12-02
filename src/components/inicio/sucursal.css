@@ -232,7 +232,7 @@
     width: 85%;
   }
 }
-@media (max-width: 678px) and (orientation: landscape) {
+@media (max-width: 720px) and (orientation: landscape) {
   .galeria-sucursal > img {
     width: 5.5rem;
   }

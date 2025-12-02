@@ -516,7 +516,7 @@
   }
 }
 
-@media (max-width: 678px) and (orientation: landscape) {
+@media (max-width: 720px) and (orientation: landscape) {
   .info-carruselp1 {
     background-color: rgba(0, 0, 0, 0);
   }
@@ -616,6 +616,7 @@
   .carrusel {
     width: 100%;
     height: 20rem;
+    min-height: 20rem;
     /*border: 1px solid green;*/
   }
   .titulo-carrusel {
@@ -626,6 +627,8 @@
   }
   .carrusel-contenedor {
     max-width: 3000px;
+    /*transform: translateX(-000vw);
+    animation: carrusel 18s steps(1) infinite;*/
   }
   .contenedor-pantalla {
     width: 100%;

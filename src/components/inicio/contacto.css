@@ -309,7 +309,7 @@
     margin-top: 0rem;
   }
 }
-@media (max-width: 678px) and (orientation: landscape) {
+@media (max-width: 720px) and (orientation: landscape) {
   .contacto {
     position: relative;
   }
@@ -395,6 +395,7 @@
   .contacto {
     padding-left: 0rem;
     max-height: 45rem;
+    min-height: 45rem;
   }
   .contacto > h2 {
     font-size: 2.5rem;
