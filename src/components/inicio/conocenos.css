@@ -91,7 +91,7 @@
   }
 }
 
-@media (max-width: 720px) and (orientation: landscape) {
+@media (max-width: 820px) and (orientation: landscape) {
   .info-conocenos {
     width: 80%;
   }
