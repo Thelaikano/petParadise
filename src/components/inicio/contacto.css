@@ -3,7 +3,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  padding-left: 3rem;
+  padding-left: 3.4rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -309,7 +309,7 @@
     margin-top: 0rem;
   }
 }
-@media (orientation: landscape) {
+@media (max-width: 678px) and (orientation: landscape) {
   .contacto {
     position: relative;
   }
@@ -389,5 +389,133 @@
   .img-contacto {
     width: 20rem;
     height: 35rem;
+  }
+}
+@media (min-width: 679px) {
+  .contacto {
+    padding-left: 0rem;
+    max-height: 45rem;
+  }
+  .contacto > h2 {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+  }
+  .info-contacto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  .map-sucursal {
+    width: 15rem;
+    height: 8rem;
+    margin: 1rem;
+    box-shadow: 8px 5px 6px 1px rgb(32, 31, 31);
+  }
+  .map-hotel {
+    width: 15rem;
+    height: 8rem;
+    margin: 1rem;
+    box-shadow: 8px 5px 6px 1px rgb(32, 31, 31);
+  }
+  .direccion-sucursal {
+    width: 50%;
+    padding: 0 1rem;
+  }
+  .direccion-sucursal > h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+  }
+  .direccion-sucursal > p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  .direccion-sucursal > p:nth-of-type(2) {
+    font-size: 1.2rem;
+  }
+  .direccion-sucursal > p:last-of-type {
+    font-size: 1.2rem;
+  }
+  .horario-contacto > h3 {
+    font-size: 1.8rem;
+
+    margin-bottom: 0.3rem;
+  }
+  .horario-contacto > p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  .direccion-hotel {
+    width: 50%;
+
+    padding: 0 1rem;
+  }
+  .direccion-hotel > h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+  }
+  .direccion-hotel > p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  .direccion-hotel > p:nth-of-type(2) {
+    font-size: 1.2rem;
+  }
+  .direccion-hotel > p:last-of-type {
+    font-size: 1.2rem;
+  }
+  .iconos-contacto {
+    /*border: 1px solid green;*/
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .icono-facebook {
+    background-color: blue;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+  }
+  .icono-facebook > svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .icono-instagram {
+    background: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+  }
+  .icono-instagram > svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .icono-watsapp > svg {
+    width: 3.8rem;
+    height: 3.8rem;
+    cursor: pointer;
+  }
+
+  .img-contacto {
+    /*border: 1px solid red;*/
+
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 30rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
   }
 }

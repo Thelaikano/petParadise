@@ -1,0 +1,41 @@
+.nav-barra {
+  display: none;
+}
+@media (min-width: 679px) {
+  .nav-barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(13, 18, 66, 0.8);
+    /*background-color: rgba(1, 1, 22, 0.8);*/
+    position: fixed;
+    width: 95%;
+    height: 3rem;
+    max-width: 1020px;
+    z-index: 3;
+    border-radius: 0.7rem;
+    color: white;
+    margin-top: 0.5rem;
+  }
+  .nav-barra > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /*border: 1px solid white;*/
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .nav-barra > a > span {
+    margin-left: 0.5rem;
+  }
+  .nav-inicio > img {
+    /*border: 1px solid red;*/
+    width: 2rem;
+  }
+  .nav-barra > a > svg {
+    width: 1.5rem;
+    /*border: 1px solid red;*/
+  }
+}

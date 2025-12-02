@@ -1,3 +1,11 @@
 .inicio {
   overflow-x: hidden;
 }
+@media (min-width: 679px) {
+  .inicio {
+    width: 90vw;
+    max-width: 1000px;
+    margin-top: 4rem;
+    background-color: white;
+  }
+}

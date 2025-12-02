@@ -2,12 +2,15 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background: var(--fondocolor-nav);
-  height: 100vh;
+  /*background: var(--fondocolor-nav);*/
+  background-color: rgba(2, 2, 85, 0.924);
+  height: 70vh;
   width: 3rem;
   overflow: hidden;
   position: fixed;
-  top: 0;
+  top: 15vh;
+  left: 0.3rem;
+  border-radius: 10px;
   z-index: 10;
   color: white;
 }
@@ -105,5 +108,19 @@
 @media (min-width: 390px) {
   .nav-mini {
     width: 3rem;
+  }
+}
+@media (min-width: 679px) {
+  .nav-mini {
+    display: none;
+  }
+}
+@media (max-width: 678px) and (orientation: landscape) {
+  .nav-mini {
+    height: 100vh;
+
+    top: 0vh;
+    left: 0;
+    border-radius: 0px;
   }
 }

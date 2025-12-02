@@ -20,3 +20,13 @@
 .app {
   position: relative;
 }
+@media (min-width: 679px) {
+  #root {
+    background-color: rgb(6, 6, 55);
+  }
+  .app {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

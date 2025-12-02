@@ -5,7 +5,7 @@ export default function NavMini() {
 
   return (
     <nav
-      onClick={() => setCerrar("100vw")}
+      onClick={() => setCerrar("15rem")}
       className="nav-mini"
       style={{ width: cerrar }}
     >
