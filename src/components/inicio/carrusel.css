@@ -807,3 +807,8 @@
     }
   }
 }
+@media (min-width: 1366px) {
+  .carrusel {
+    margin-bottom: 4rem;
+  }
+}

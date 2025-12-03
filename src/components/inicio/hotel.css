@@ -1,5 +1,6 @@
 .info-hotel {
   text-align: left;
+  padding-bottom: 1rem;
 }
 .info-hotel > h3 {
   font-size: 1.1rem;
@@ -49,22 +50,4 @@
   width: 80%;
 
   margin: 0rem 0.5rem;
-}
-
-.boton-cita {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  width: 15rem;
-  margin: 1rem;
-  border-radius: 10px;
-}
-.boton-cita > p {
-  padding: 0 0.5rem;
-}
-.boton-cita > div {
-  padding: 0 0.5rem;
-
-  border-left: 2px solid white;
 }

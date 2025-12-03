@@ -30,3 +30,11 @@
     flex-direction: row;
   }
 }
+@media (min-width: 1366px) {
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

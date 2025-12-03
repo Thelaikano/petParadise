@@ -393,6 +393,8 @@
 }
 @media (min-width: 679px) {
   .contacto {
+    margin-top: -1rem;
+    padding-top: 1rem;
     padding-left: 0rem;
     max-height: 45rem;
     min-height: 45rem;
