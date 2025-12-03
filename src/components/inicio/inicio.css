@@ -9,3 +9,8 @@
     background-color: white;
   }
 }
+@media (min-width: 999px) {
+  .inicio {
+    margin-top: 5rem;
+  }
+}

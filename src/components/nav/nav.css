@@ -30,12 +30,32 @@
   .nav-barra > a > span {
     margin-left: 0.5rem;
   }
+  .nav-barra > a > span:hover {
+    text-shadow: 4px 0 4px white;
+  }
   .nav-inicio > img {
     /*border: 1px solid red;*/
     width: 2rem;
   }
   .nav-barra > a > svg {
     width: 1.5rem;
+    /*border: 1px solid red;*/
+  }
+}
+@media (min-width: 999px) {
+  .nav-barra {
+    height: 4rem;
+  }
+  .nav-barra > a > span {
+    font-size: 1.3rem;
+  }
+  .nav-inicio > img {
+    /*border: 1px solid red;*/
+    width: 3rem;
+  }
+  .nav-barra > a > svg {
+    width: 2rem;
+    height: 2rem;
     /*border: 1px solid red;*/
   }
 }

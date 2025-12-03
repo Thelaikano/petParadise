@@ -520,3 +520,8 @@
     z-index: 0;
   }
 }
+@media (min-width: 999px) {
+  .contacto > h2 {
+    padding-top: 4rem;
+  }
+}

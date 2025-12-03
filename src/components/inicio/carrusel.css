@@ -38,6 +38,7 @@
     rgba(242, 255, 0, 1) 0%,
     rgba(255, 85, 0, 1) 100%
   );
+
   width: 100vw;
   height: 90vh;
 }
@@ -184,12 +185,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #ffff00;
-  background: radial-gradient(
+  /*background: #ffff00;*/
+  /*background: radial-gradient(
     circle,
     rgba(255, 255, 0, 1) 0%,
     rgba(0, 255, 0, 1) 100%
-  );
+  );*/
+  background: #ffff00;
+  background: radial-gradient(circle, rgb(222, 222, 7) 0%, rgb(3, 104, 3) 100%);
   width: 100vw;
   height: 90vh;
 }
@@ -626,8 +629,8 @@
   }
   .carrusel-contenedor {
     max-width: 3000px;
-    /*transform: translateX(-000vw);
-    animation: carrusel 18s steps(1) infinite;*/
+    /*transform: translateX(-200vw);*/
+    /*animation: carrusel 18s steps(1) infinite;*/
   }
   .contenedor-pantalla {
     width: 100%;
@@ -635,6 +638,12 @@
   }
   .carrusel-p1 {
     max-width: 1000px;
+    background: #f2ff00;
+    background: radial-gradient(
+      circle,
+      rgb(183, 192, 7) 0%,
+      rgb(215, 78, 9) 100%
+    );
   }
   .img-carruselp1 {
     width: 25rem;
@@ -749,6 +758,7 @@
     height: 100%;
     padding-left: 3rem;
     background-color: rgba(0, 0, 0, 0);
+    text-shadow: 5px 2px 8px black;
   }
 
   .text-p3 {
