@@ -91,39 +91,6 @@
   }
 }
 
-@media (max-width: 820px) and (orientation: landscape) {
-  .info-conocenos {
-    width: 80%;
-  }
-  .info-conocenos > h2 {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    font-size: 180%;
-  }
-  .info-conocenos > h3 {
-    margin-left: 0.5rem;
-    font-size: 120%;
-  }
-  .info-conocenos > p > b {
-    font-size: 180%;
-  }
-
-  .info-conocenos > p {
-    margin: 0.5rem;
-    font-weight: 800;
-    font-size: 77%;
-  }
-  .img-conocenos {
-    /*border: 1px solid red;*/
-
-    bottom: -2rem;
-    right: -3rem;
-
-    background-position: bottom;
-    width: 20rem;
-    height: 30rem;
-  }
-}
 @media (min-width: 679px) {
   .conocenos {
     position: relative;
@@ -173,5 +140,38 @@
 
     width: 25rem;
     height: 35rem;
+  }
+}
+@media (max-width: 820px) and (orientation: landscape) {
+  .info-conocenos {
+    width: 80%;
+  }
+  .info-conocenos > h2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 180%;
+  }
+  .info-conocenos > h3 {
+    margin-left: 0.5rem;
+    font-size: 120%;
+  }
+  .info-conocenos > p > b {
+    font-size: 180%;
+  }
+
+  .info-conocenos > p {
+    margin: 0.5rem;
+    font-weight: 800;
+    font-size: 77%;
+  }
+  .img-conocenos {
+    /*border: 1px solid red;*/
+
+    bottom: -2rem;
+    right: -3rem;
+
+    background-position: bottom;
+    width: 20rem;
+    height: 30rem;
   }
 }
