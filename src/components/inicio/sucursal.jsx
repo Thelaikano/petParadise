@@ -5,16 +5,16 @@ export default function Sucursal({ handleWhatsapp }) {
       <div className="info-sucursal">
         <h3>Sucursal Pet Paradise – Cuidado integral en un solo lugar</h3>
         <p>
-          <b>E</b>n nuestra sucursal Pet Paradise, combinamos la atención
-          veterinaria de calidad con la comodidad de una tienda especializada,
-          todo pensado para brindarte una experiencia completa y sin
-          complicaciones.
+          <b>E</b>n nuestra sucursal <span>Pet Paradise</span>, combinamos la
+          atención veterinaria de calidad con la comodidad de una tienda
+          especializada, todo pensado para brindarte una experiencia completa y
+          sin complicaciones.
         </p>
         <h4>Consultorio Veterinario</h4>
         <p>
           <b>C</b>ontamos con un consultorio moderno y equipado, donde tu
-          mascota recibe atención profesional en un ambiente tranquilo y seguro.
-          Ofrecemos:
+          mascota recibe atención profesional en un{" "}
+          <span>ambiente tranquilo y seguro</span>. Ofrecemos:
         </p>
         <ul>
           <li>Consultas de rutina y emergencias</li>
@@ -58,7 +58,8 @@ export default function Sucursal({ handleWhatsapp }) {
         <h4>Tienda Pet Paradise</h4>
         <p>
           <b>A</b>l salir de la consulta —o simplemente de paso—, podrás
-          encontrar en nuestra tienda todo lo que tu mascota necesita:
+          encontrar en nuestra tienda{" "}
+          <span>todo lo que tu mascota necesita</span>:
         </p>
         <ul>
           <li>

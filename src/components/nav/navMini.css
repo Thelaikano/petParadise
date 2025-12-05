@@ -82,13 +82,12 @@
   text-decoration: none;
   color: white;
 }
-.enlaces-navmini > li > a:active {
-  color: black;
-}
-.marca {
+
+.marca-nav {
   position: absolute;
-  bottom: 0;
+  bottom: 0vh;
   right: 0;
+  left: 3.5rem;
 
   width: 100vw;
 
@@ -96,12 +95,12 @@
   display: flex;
   justify-content: left;
 }
-.marca > span {
-  font-weight: 100;
+.marca-nav > span {
+  font-weight: 200;
   font-size: 0.8rem;
   text-shadow: 1px 1px 1px black;
 }
-.marca > span > svg {
+.marca-nav > span > svg {
   width: 15px;
   margin-bottom: -0.5rem;
 }

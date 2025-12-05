@@ -142,7 +142,7 @@ export default function NavMini() {
           Cerrar
         </li>
       </ul>
-      <div className="marca">
+      <div className="marca-nav">
         <span>
           2026{" "}
           <svg

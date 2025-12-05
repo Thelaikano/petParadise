@@ -5,15 +5,16 @@ export default function Hotel({ handleWhatsapp }) {
       <div className="info-hotel">
         <h3>Hotel Pet Paradise – Donde tu mascota se siente como en casa</h3>
         <p>
-          ¿<b>V</b>as de viaje, tienes una jornada intensa o simplemente
+          ¿<span>Vas de viaje</span>, tienes una jornada intensa o simplemente
           necesitas que alguien cuide a tu mejor amigo con amor y
-          profesionalismo? En Hotel Pet Paradise, tu mascota no solo está
-          alojada… ¡está de vacaciones!
+          profesionalismo? En <span>Hotel Pet Paradise</span>, tu mascota no
+          solo está alojada… <span>¡está de vacaciones!</span>
         </p>
         <p>
           <b>C</b>on más de 20 años de experiencia en el cuidado canino, hemos
-          diseñado un espacio seguro, limpio y lleno de cariño, pensado
-          especialmente para el bienestar físico y emocional de tu mascota.
+          diseñado un <span>espacio seguro, limpio</span> y lleno de cariño,
+          pensado especialmente para el bienestar físico y emocional de tu
+          mascota.
         </p>
         <div className="galeria-hotel">
           <img src="hotel1.png" alt="hotel1" />
@@ -61,10 +62,10 @@ export default function Hotel({ handleWhatsapp }) {
         </div>
 
         <p>
-          <b>E</b>n Hotel Pet Paradise, cada huésped es tratado como un miembro
-          más de la familia. Porque sabemos que confiar en quién cuida a tu
-          perro es una decisión importante… ¡y queremos que te vayas con la
-          mente tranquila!
+          <b>E</b>n <span>Hotel Pet Paradise</span>, cada huésped es tratado
+          como un miembro más de la familia. Porque sabemos que confiar en quién
+          cuida a tu perro es una decisión importante…{" "}
+          <span>¡y queremos que te vayas con la mente tranquila!</span>
         </p>
         <p>
           <b>R</b>eserva su estadía hoy y dale a tu fiel compañero unas
@@ -96,7 +97,7 @@ export default function Hotel({ handleWhatsapp }) {
           la mano.
         </h4>
         <p>
-          ¡<b>V</b>en a conocernos! Estamos listos para atenderte con
+          <span>¡Ven a conocernos!</span> Estamos listos para atenderte con
           profesionalismo, calidez y el cariño que tu fiel compañero merece.
         </p>
       </div>

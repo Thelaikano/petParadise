@@ -10,10 +10,10 @@ export default function Servicios() {
           <ul>
             <h4>Información</h4>
             <li>Consultas veterinarias de rutina y de emergencia</li>
-            <li>Vacunacion y planes de prevencion</li>
-            <li>Desparasitacion interna y externa</li>
-            <li>Control de peso y nutricion personalizada</li>
-            <li>Chequeos geriatricos para mascotas senior</li>
+            <li>Vacunación y planes de prevención</li>
+            <li>Desparasitación interna y externa</li>
+            <li>Control de peso y nutrición personalizada</li>
+            <li>Chequeos geriátricos para mascotas senior</li>
           </ul>
         </div>
         <div className="tarjeta-servicios">

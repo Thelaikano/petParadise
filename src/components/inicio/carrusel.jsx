@@ -105,7 +105,7 @@ export default function Carrusel({
                 <img src={mapaImg} alt="mapa" onClick={handleMapasucursal} />
                 <p>Calle Mira 213-local 15</p>
                 <p>Colonia Emiliano Zapata</p>
-                <p>San Andrés Cholula, Pueble, C.P.72824</p>
+                <p>San Andrés Cholula, Puebla, C.P.72824</p>
 
                 <p
                   style={{ color: "yellow", cursor: "pointer" }}

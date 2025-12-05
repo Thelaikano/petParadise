@@ -1,3 +1,6 @@
+.marca-contacto {
+  display: none;
+}
 .contacto {
   overflow: hidden;
   position: relative;
@@ -467,6 +470,7 @@
     font-size: 1.2rem;
   }
   .iconos-contacto {
+    position: relative;
     /*border: 1px solid green;*/
     width: 15rem;
     display: flex;
@@ -520,6 +524,22 @@
     right: 0;
     bottom: 0;
     z-index: 0;
+  }
+  .marca-contacto {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    left: 7rem;
+  }
+  .marca-contacto > span {
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 1px black;
+  }
+  .marca-contacto > span > svg {
+    width: 15px;
+    margin-bottom: -0.5rem;
   }
 }
 @media (min-width: 999px) {
