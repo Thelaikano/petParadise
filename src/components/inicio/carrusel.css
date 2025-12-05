@@ -2,7 +2,8 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 3px 1px 3px black;
+
   color: white;
 }
 .titulo-carrusel {
@@ -220,6 +221,8 @@
   width: 100%;
   height: 100%;
   padding-left: 3rem;
+  text-shadow: 3px 1px 3px black;
+
   /*background-color: rgba(0, 0, 0, 0.2)*/
 }
 
@@ -634,7 +637,7 @@
   }
   .carrusel-contenedor {
     max-width: 3000px;
-    /*transform: translateX(-200vw);*/
+    /*transform: translateX(-1000px);*/
     /*animation: carrusel 18s steps(1) infinite;*/
   }
   .contenedor-pantalla {
@@ -722,6 +725,7 @@
     max-width: 1000px;
     padding-left: 3rem;
     background-color: rgba(0, 0, 0, 0);
+    text-shadow: 3px 1px 3px black;
   }
 
   .text-p2 {
@@ -763,6 +767,7 @@
     height: 100%;
     padding-left: 3rem;
     background-color: rgba(0, 0, 0, 0);
+    text-shadow: 3px 1px 3px black;
   }
 
   .text-p3 {

@@ -299,25 +299,25 @@
     font-weight: 800;
   }
   .info-sucursal > p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
     font-weight: 700;
     padding: 0 2rem;
   }
   .info-sucursal > p > b {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .info-sucursal > p > span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .info-hotel > p > span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .info-sucursal > ul {
     margin-left: 3rem;
   }
   .info-sucursal > ul > li {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 
     margin: 0rem 2rem;
   }
@@ -373,19 +373,19 @@
     font-weight: 800;
   }
   .info-hotel > p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
     font-weight: 700;
     padding: 0 2rem;
   }
   .info-hotel > p > b {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .info-hotel > ul {
     margin-left: 3rem;
   }
   .info-hotel > ul > li {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 
     margin: 0rem 2rem;
   }

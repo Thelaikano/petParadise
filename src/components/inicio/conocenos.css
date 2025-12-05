@@ -195,12 +195,12 @@
     font-size: 2.2rem;
   }
   .info-conocenos > p > b {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .info-conocenos > p {
     margin: 0.9rem;
-    font-weight: 800;
-    font-size: 1.2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
   }
 }
